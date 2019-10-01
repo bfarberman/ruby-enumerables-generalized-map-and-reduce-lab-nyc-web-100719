@@ -18,15 +18,15 @@ def reduce(array, starting_point = nil)
   while i < array.length 
   value = yield(value, array[i])
   i += 1 
-  
+end
+value
+end 
+
+
   
   
   
     
     
- 
-  it "returns an array with the original values" do
-    dune = ["paul", "gurney", "vladimir", "jessica", "chani"]
-    expect(map(dune){|n| n}).to eq(dune)
-  end
+
 
