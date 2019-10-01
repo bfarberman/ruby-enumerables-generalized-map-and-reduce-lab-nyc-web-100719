@@ -10,6 +10,8 @@ end
 def reduce(array, starting_point = nil)
   if starting_point
     value = starting_point
+    i = 0 
+    
  
   it "returns an array with the original values" do
     dune = ["paul", "gurney", "vladimir", "jessica", "chani"]
