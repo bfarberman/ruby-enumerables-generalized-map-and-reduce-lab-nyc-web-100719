@@ -7,7 +7,7 @@ def map(source_array)
   source_array
 end 
 
-def reduce
+def reduce(array)
  
   it "returns an array with the original values" do
     dune = ["paul", "gurney", "vladimir", "jessica", "chani"]
